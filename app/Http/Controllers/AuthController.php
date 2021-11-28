@@ -44,7 +44,7 @@ class AuthController extends Controller
         //check password
         if(!$user || !Hash::check($fields['password'],$user->password)){
             return response([
-                'message'=>'Bad request' 
+                'message'=>'User Not Found' 
             ],401);
         }
 
