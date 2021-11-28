@@ -3,9 +3,21 @@
 
 ## Tutorial create api using sanctum package
 
+## Sintax
+- > composer create-project laravel/laravel example-app
+- > php artisan serve
+- > php artisan make:model Product
+- > php artisan migrate
+- > php artisan make:controller ProductController
+
 
 ## About Sanctum
 Laravel Sanctum provides a featherweight authentication system for SPAs (single page applications), mobile applications, and simple, token based APIs. Sanctum allows each user of your application to generate multiple API tokens for their account. These tokens may be granted abilities / scopes which specify which actions the tokens are allowed to perform.
+
+
+## Install Sanctum
+- > composer require laravel/sanctum
+- > php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
 
 
 ## License
